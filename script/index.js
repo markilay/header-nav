@@ -3,6 +3,7 @@ const burger = document.querySelector(".burger");
 const dropdown = document.querySelector(".dropdown");
 const menu = document.querySelector(".categories-menu");
 const menuItems = document.querySelectorAll(".categories-item");
+const MOBILE = 768;
 
 function openMenu() {
   menuButton.classList.toggle("open");
@@ -36,7 +37,7 @@ function openSubCategory(e) {
   e.currentTarget.classList.toggle("open");
 }
 
-if (window.innerWidth < 768) {
+if (window.innerWidth < MOBILE) {
   menuButton.addEventListener("click", openMenu);
 } else {
   menuButton.addEventListener("click", openSidebar);

@@ -398,7 +398,7 @@ header h1 {
   header nav .dropdown .categories-menu .categories .categories-item a:hover {
     background: none;
   }
-  header nav h1 {
+  header h1 {
     display: block;
   }
 }

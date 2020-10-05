@@ -96,6 +96,7 @@ header {
 
     .dropdown.slide-out {
       transform: translateX(0);
+      opacity: 1;
     }
 
     .dropdown {
@@ -105,6 +106,7 @@ header {
       height: 90vh;
       top: 10vh;
       left: 0;
+      opacity: 0;
       transform: translateX(-100%);
       transition: all 0.5s ease-in;
 
@@ -294,6 +296,7 @@ header {
         left: 50%;
         width: 90vw;
         height: 0;
+        opacity: 1;
         overflow: hidden;
         transform: translateX(-50%);
         transition: all 0.5s ease-in;
